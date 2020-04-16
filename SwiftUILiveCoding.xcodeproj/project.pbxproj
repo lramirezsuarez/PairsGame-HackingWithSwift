@@ -13,6 +13,8 @@
 		0710D3BB24475B2A007DA069 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0710D3BA24475B2A007DA069 /* Preview Assets.xcassets */; };
 		0710D3BE24475B2A007DA069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0710D3BC24475B2A007DA069 /* Main.storyboard */; };
 		0710D3CA24475B2A007DA069 /* SwiftUILiveCodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3C924475B2A007DA069 /* SwiftUILiveCodingTests.swift */; };
+		0710D3D624475FFA007DA069 /* math.json in Resources */ = {isa = PBXBuildFile; fileRef = 0710D3D424475FFA007DA069 /* math.json */; };
+		0710D3D724475FFA007DA069 /* capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 0710D3D524475FFA007DA069 /* capitals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		0710D3C524475B2A007DA069 /* SwiftUILiveCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILiveCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0710D3C924475B2A007DA069 /* SwiftUILiveCodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILiveCodingTests.swift; sourceTree = "<group>"; };
 		0710D3CB24475B2A007DA069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0710D3D424475FFA007DA069 /* math.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = math.json; sourceTree = "<group>"; };
+		0710D3D524475FFA007DA069 /* capitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			children = (
 				0710D3B324475B26007DA069 /* AppDelegate.swift */,
 				0710D3B524475B26007DA069 /* ContentView.swift */,
+				0710D3D524475FFA007DA069 /* capitals.json */,
+				0710D3D424475FFA007DA069 /* math.json */,
 				0710D3B724475B2A007DA069 /* Assets.xcassets */,
 				0710D3BC24475B2A007DA069 /* Main.storyboard */,
 				0710D3BF24475B2A007DA069 /* Info.plist */,
@@ -189,7 +195,9 @@
 			files = (
 				0710D3BE24475B2A007DA069 /* Main.storyboard in Resources */,
 				0710D3BB24475B2A007DA069 /* Preview Assets.xcassets in Resources */,
+				0710D3D724475FFA007DA069 /* capitals.json in Resources */,
 				0710D3B824475B2A007DA069 /* Assets.xcassets in Resources */,
+				0710D3D624475FFA007DA069 /* math.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
