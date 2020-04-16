@@ -15,6 +15,14 @@
 		0710D3CA24475B2A007DA069 /* SwiftUILiveCodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3C924475B2A007DA069 /* SwiftUILiveCodingTests.swift */; };
 		0710D3D624475FFA007DA069 /* math.json in Resources */ = {isa = PBXBuildFile; fileRef = 0710D3D424475FFA007DA069 /* math.json */; };
 		0710D3D724475FFA007DA069 /* capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 0710D3D524475FFA007DA069 /* capitals.json */; };
+		0710D3DA2447ECE6007DA069 /* Bundle+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3D92447ECE6007DA069 /* Bundle+Decode.swift */; };
+		0710D3DD2447ED2A007DA069 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3DC2447ED2A007DA069 /* Deck.swift */; };
+		0710D3E02447ED5B007DA069 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3DF2447ED5B007DA069 /* Card.swift */; };
+		0710D3E32447ED9A007DA069 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3E22447ED9A007DA069 /* CardView.swift */; };
+		0710D3E52447EE0C007DA069 /* CardPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3E42447EE0C007DA069 /* CardPart.swift */; };
+		0710D3E72447EE2D007DA069 /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3E62447EE2D007DA069 /* CardBack.swift */; };
+		0710D3E92447EE48007DA069 /* CardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3E82447EE48007DA069 /* CardFront.swift */; };
+		0710D3EB2447EE9A007DA069 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710D3EA2447EE9A007DA069 /* GridStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,14 @@
 		0710D3CB24475B2A007DA069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0710D3D424475FFA007DA069 /* math.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = math.json; sourceTree = "<group>"; };
 		0710D3D524475FFA007DA069 /* capitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
+		0710D3D92447ECE6007DA069 /* Bundle+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decode.swift"; sourceTree = "<group>"; };
+		0710D3DC2447ED2A007DA069 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		0710D3DF2447ED5B007DA069 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0710D3E22447ED9A007DA069 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0710D3E42447EE0C007DA069 /* CardPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPart.swift; sourceTree = "<group>"; };
+		0710D3E62447EE2D007DA069 /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
+		0710D3E82447EE48007DA069 /* CardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFront.swift; sourceTree = "<group>"; };
+		0710D3EA2447EE9A007DA069 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,10 @@
 		0710D3B224475B26007DA069 /* SwiftUILiveCoding */ = {
 			isa = PBXGroup;
 			children = (
+				0710D3E12447ED7F007DA069 /* Views */,
+				0710D3DE2447ED4B007DA069 /* Model */,
+				0710D3DB2447ED04007DA069 /* ViewModel */,
+				0710D3D82447ECC9007DA069 /* Extensions+Helpers */,
 				0710D3B324475B26007DA069 /* AppDelegate.swift */,
 				0710D3B524475B26007DA069 /* ContentView.swift */,
 				0710D3D524475FFA007DA069 /* capitals.json */,
@@ -110,6 +130,42 @@
 				0710D3CB24475B2A007DA069 /* Info.plist */,
 			);
 			path = SwiftUILiveCodingTests;
+			sourceTree = "<group>";
+		};
+		0710D3D82447ECC9007DA069 /* Extensions+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0710D3D92447ECE6007DA069 /* Bundle+Decode.swift */,
+				0710D3EA2447EE9A007DA069 /* GridStack.swift */,
+			);
+			path = "Extensions+Helpers";
+			sourceTree = "<group>";
+		};
+		0710D3DB2447ED04007DA069 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0710D3DC2447ED2A007DA069 /* Deck.swift */,
+				0710D3E42447EE0C007DA069 /* CardPart.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0710D3DE2447ED4B007DA069 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0710D3DF2447ED5B007DA069 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0710D3E12447ED7F007DA069 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0710D3E22447ED9A007DA069 /* CardView.swift */,
+				0710D3E62447EE2D007DA069 /* CardBack.swift */,
+				0710D3E82447EE48007DA069 /* CardFront.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +271,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0710D3DD2447ED2A007DA069 /* Deck.swift in Sources */,
+				0710D3E52447EE0C007DA069 /* CardPart.swift in Sources */,
+				0710D3EB2447EE9A007DA069 /* GridStack.swift in Sources */,
 				0710D3B624475B26007DA069 /* ContentView.swift in Sources */,
+				0710D3E02447ED5B007DA069 /* Card.swift in Sources */,
+				0710D3E72447EE2D007DA069 /* CardBack.swift in Sources */,
 				0710D3B424475B26007DA069 /* AppDelegate.swift in Sources */,
+				0710D3E32447ED9A007DA069 /* CardView.swift in Sources */,
+				0710D3DA2447ECE6007DA069 /* Bundle+Decode.swift in Sources */,
+				0710D3E92447EE48007DA069 /* CardFront.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
